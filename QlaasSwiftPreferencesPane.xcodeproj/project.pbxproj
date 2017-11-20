@@ -7,19 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4AA4EE161FC3613D0010223F /* QlaasSwiftPreferencesPane.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AA4EE151FC3613D0010223F /* QlaasSwiftPreferencesPane.h */; };
-		4AA4EE181FC3613D0010223F /* QlaasSwiftPreferencesPane.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA4EE171FC3613D0010223F /* QlaasSwiftPreferencesPane.m */; };
 		4AA4EE1A1FC3613D0010223F /* QlaasSwiftPreferencesPane.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 4AA4EE191FC3613D0010223F /* QlaasSwiftPreferencesPane.tiff */; };
 		4AA4EE1D1FC3613D0010223F /* QlaasSwiftPreferencesPane.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4AA4EE1B1FC3613D0010223F /* QlaasSwiftPreferencesPane.xib */; };
+		4AA4EE261FC361560010223F /* QlaasSwiftPreferencesPane.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AA4EE251FC361560010223F /* QlaasSwiftPreferencesPane.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4AA4EE121FC3613D0010223F /* QlaasSwiftPreferencesPane.prefPane */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QlaasSwiftPreferencesPane.prefPane; sourceTree = BUILT_PRODUCTS_DIR; };
-		4AA4EE151FC3613D0010223F /* QlaasSwiftPreferencesPane.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QlaasSwiftPreferencesPane.h; sourceTree = "<group>"; };
-		4AA4EE171FC3613D0010223F /* QlaasSwiftPreferencesPane.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QlaasSwiftPreferencesPane.m; sourceTree = "<group>"; };
 		4AA4EE191FC3613D0010223F /* QlaasSwiftPreferencesPane.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = QlaasSwiftPreferencesPane.tiff; sourceTree = "<group>"; };
 		4AA4EE1C1FC3613D0010223F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/QlaasSwiftPreferencesPane.xib; sourceTree = "<group>"; };
 		4AA4EE1E1FC3613D0010223F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4AA4EE241FC361560010223F /* QlaasSwiftPreferencesPane-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "QlaasSwiftPreferencesPane-Bridging-Header.h"; sourceTree = "<group>"; };
+		4AA4EE251FC361560010223F /* QlaasSwiftPreferencesPane.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QlaasSwiftPreferencesPane.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,11 +51,11 @@
 		4AA4EE141FC3613D0010223F /* QlaasSwiftPreferencesPane */ = {
 			isa = PBXGroup;
 			children = (
-				4AA4EE151FC3613D0010223F /* QlaasSwiftPreferencesPane.h */,
-				4AA4EE171FC3613D0010223F /* QlaasSwiftPreferencesPane.m */,
 				4AA4EE191FC3613D0010223F /* QlaasSwiftPreferencesPane.tiff */,
 				4AA4EE1B1FC3613D0010223F /* QlaasSwiftPreferencesPane.xib */,
 				4AA4EE1E1FC3613D0010223F /* Info.plist */,
+				4AA4EE251FC361560010223F /* QlaasSwiftPreferencesPane.swift */,
+				4AA4EE241FC361560010223F /* QlaasSwiftPreferencesPane-Bridging-Header.h */,
 			);
 			path = QlaasSwiftPreferencesPane;
 			sourceTree = "<group>";
@@ -68,7 +67,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4AA4EE161FC3613D0010223F /* QlaasSwiftPreferencesPane.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -104,6 +102,7 @@
 				TargetAttributes = {
 					4AA4EE111FC3613D0010223F = {
 						CreatedOnToolsVersion = 9.1;
+						LastSwiftMigration = 0910;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -143,7 +142,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4AA4EE181FC3613D0010223F /* QlaasSwiftPreferencesPane.m in Sources */,
+				4AA4EE261FC361560010223F /* QlaasSwiftPreferencesPane.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,13 +266,19 @@
 		4AA4EE221FC3613D0010223F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = JJXPJWACWB;
 				INFOPLIST_FILE = QlaasSwiftPreferencesPane/Info.plist;
 				INSTALL_PATH = "$(HOME)/Library/PreferencePanes";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = eu.parkbench.QlaasSwiftPreferencesPane;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "QlaasSwiftPreferencesPane/QlaasSwiftPreferencesPane-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 				WRAPPER_EXTENSION = prefPane;
 			};
 			name = Debug;
@@ -281,13 +286,18 @@
 		4AA4EE231FC3613D0010223F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = JJXPJWACWB;
 				INFOPLIST_FILE = QlaasSwiftPreferencesPane/Info.plist;
 				INSTALL_PATH = "$(HOME)/Library/PreferencePanes";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = eu.parkbench.QlaasSwiftPreferencesPane;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "QlaasSwiftPreferencesPane/QlaasSwiftPreferencesPane-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
 				WRAPPER_EXTENSION = prefPane;
 			};
 			name = Release;
