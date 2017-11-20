@@ -1,0 +1,319 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4AA4EE161FC3613D0010223F /* QlaasSwiftPreferencesPane.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AA4EE151FC3613D0010223F /* QlaasSwiftPreferencesPane.h */; };
+		4AA4EE181FC3613D0010223F /* QlaasSwiftPreferencesPane.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA4EE171FC3613D0010223F /* QlaasSwiftPreferencesPane.m */; };
+		4AA4EE1A1FC3613D0010223F /* QlaasSwiftPreferencesPane.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 4AA4EE191FC3613D0010223F /* QlaasSwiftPreferencesPane.tiff */; };
+		4AA4EE1D1FC3613D0010223F /* QlaasSwiftPreferencesPane.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4AA4EE1B1FC3613D0010223F /* QlaasSwiftPreferencesPane.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4AA4EE121FC3613D0010223F /* QlaasSwiftPreferencesPane.prefPane */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QlaasSwiftPreferencesPane.prefPane; sourceTree = BUILT_PRODUCTS_DIR; };
+		4AA4EE151FC3613D0010223F /* QlaasSwiftPreferencesPane.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QlaasSwiftPreferencesPane.h; sourceTree = "<group>"; };
+		4AA4EE171FC3613D0010223F /* QlaasSwiftPreferencesPane.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QlaasSwiftPreferencesPane.m; sourceTree = "<group>"; };
+		4AA4EE191FC3613D0010223F /* QlaasSwiftPreferencesPane.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = QlaasSwiftPreferencesPane.tiff; sourceTree = "<group>"; };
+		4AA4EE1C1FC3613D0010223F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/QlaasSwiftPreferencesPane.xib; sourceTree = "<group>"; };
+		4AA4EE1E1FC3613D0010223F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4AA4EE0E1FC3613D0010223F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4AA4EE081FC3613D0010223F = {
+			isa = PBXGroup;
+			children = (
+				4AA4EE141FC3613D0010223F /* QlaasSwiftPreferencesPane */,
+				4AA4EE131FC3613D0010223F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4AA4EE131FC3613D0010223F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4AA4EE121FC3613D0010223F /* QlaasSwiftPreferencesPane.prefPane */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4AA4EE141FC3613D0010223F /* QlaasSwiftPreferencesPane */ = {
+			isa = PBXGroup;
+			children = (
+				4AA4EE151FC3613D0010223F /* QlaasSwiftPreferencesPane.h */,
+				4AA4EE171FC3613D0010223F /* QlaasSwiftPreferencesPane.m */,
+				4AA4EE191FC3613D0010223F /* QlaasSwiftPreferencesPane.tiff */,
+				4AA4EE1B1FC3613D0010223F /* QlaasSwiftPreferencesPane.xib */,
+				4AA4EE1E1FC3613D0010223F /* Info.plist */,
+			);
+			path = QlaasSwiftPreferencesPane;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4AA4EE0F1FC3613D0010223F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AA4EE161FC3613D0010223F /* QlaasSwiftPreferencesPane.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		4AA4EE111FC3613D0010223F /* QlaasSwiftPreferencesPane */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4AA4EE211FC3613D0010223F /* Build configuration list for PBXNativeTarget "QlaasSwiftPreferencesPane" */;
+			buildPhases = (
+				4AA4EE0D1FC3613D0010223F /* Sources */,
+				4AA4EE0E1FC3613D0010223F /* Frameworks */,
+				4AA4EE0F1FC3613D0010223F /* Headers */,
+				4AA4EE101FC3613D0010223F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QlaasSwiftPreferencesPane;
+			productName = QlaasSwiftPreferencesPane;
+			productReference = 4AA4EE121FC3613D0010223F /* QlaasSwiftPreferencesPane.prefPane */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4AA4EE091FC3613D0010223F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "Park Bench";
+				TargetAttributes = {
+					4AA4EE111FC3613D0010223F = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 4AA4EE0C1FC3613D0010223F /* Build configuration list for PBXProject "QlaasSwiftPreferencesPane" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4AA4EE081FC3613D0010223F;
+			productRefGroup = 4AA4EE131FC3613D0010223F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4AA4EE111FC3613D0010223F /* QlaasSwiftPreferencesPane */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4AA4EE101FC3613D0010223F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AA4EE1A1FC3613D0010223F /* QlaasSwiftPreferencesPane.tiff in Resources */,
+				4AA4EE1D1FC3613D0010223F /* QlaasSwiftPreferencesPane.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4AA4EE0D1FC3613D0010223F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AA4EE181FC3613D0010223F /* QlaasSwiftPreferencesPane.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4AA4EE1B1FC3613D0010223F /* QlaasSwiftPreferencesPane.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4AA4EE1C1FC3613D0010223F /* Base */,
+			);
+			name = QlaasSwiftPreferencesPane.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4AA4EE1F1FC3613D0010223F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		4AA4EE201FC3613D0010223F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		4AA4EE221FC3613D0010223F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = JJXPJWACWB;
+				INFOPLIST_FILE = QlaasSwiftPreferencesPane/Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/PreferencePanes";
+				PRODUCT_BUNDLE_IDENTIFIER = eu.parkbench.QlaasSwiftPreferencesPane;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = prefPane;
+			};
+			name = Debug;
+		};
+		4AA4EE231FC3613D0010223F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = JJXPJWACWB;
+				INFOPLIST_FILE = QlaasSwiftPreferencesPane/Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/PreferencePanes";
+				PRODUCT_BUNDLE_IDENTIFIER = eu.parkbench.QlaasSwiftPreferencesPane;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = prefPane;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4AA4EE0C1FC3613D0010223F /* Build configuration list for PBXProject "QlaasSwiftPreferencesPane" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4AA4EE1F1FC3613D0010223F /* Debug */,
+				4AA4EE201FC3613D0010223F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4AA4EE211FC3613D0010223F /* Build configuration list for PBXNativeTarget "QlaasSwiftPreferencesPane" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4AA4EE221FC3613D0010223F /* Debug */,
+				4AA4EE231FC3613D0010223F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4AA4EE091FC3613D0010223F /* Project object */;
+}
