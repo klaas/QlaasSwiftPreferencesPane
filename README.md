@@ -1,3 +1,9 @@
+# Update 2018-04-13:
+
+**The problem is fixed by Apple. No code changes required when using the latest macOS 10.13.4 (17E199), Xcode 9.3 (9E145) and Swift 4.1 (swiftlang-902.0.48 clang-902.0.37.1).**
+
+## Introduction
+
 This is a simple demo project to show that preferences panes programmed in Swift 4 will not work when used in **macOS High Sierra**. Related and similar to <https://github.com/klaas/QlaasSwiftScreenSaver>. On **macOS Sierra** the pane works fine.
 
 
